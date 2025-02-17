@@ -1,16 +1,13 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryItem : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Image _itemImage;
+    [SerializeField] private Text _itemCount;
 
-    // Update is called once per frame
-    void Update()
+    public void SetInventoryItem()
     {
-        
+
     }
 }

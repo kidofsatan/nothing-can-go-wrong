@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0f1339f26a115484ea4006e0c401db66
+guid: 7ed0dc358ea916649bd67729bd4612e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3087819864445757613
-    second: player_idle_1_0
+      213: 1398562571240891744
+    second: watering_can_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle_1_0
+      name: watering_can_0
       rect:
         serializedVersion: 2
         x: 1
         y: 0
-        width: 14
-        height: 16
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 357d059713cd525d0800000000000000
-      internalID: -3087819864445757613
+      spriteID: 06568f6af31b86310800000000000000
+      internalID: 1398562571240891744
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_idle_1_0: -3087819864445757613
+      watering_can_0: 1398562571240891744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

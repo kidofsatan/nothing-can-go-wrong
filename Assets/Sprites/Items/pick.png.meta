@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0f1339f26a115484ea4006e0c401db66
+guid: 758cddd3fc0db61468ed7ffc66a2a47c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3087819864445757613
-    second: player_idle_1_0
+      213: -195602406138073655
+    second: pick_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle_1_0
+      name: pick_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 14
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 357d059713cd525d0800000000000000
-      internalID: -3087819864445757613
+      spriteID: 9cdade0e5a4194df0800000000000000
+      internalID: -195602406138073655
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_idle_1_0: -3087819864445757613
+      pick_0: -195602406138073655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
