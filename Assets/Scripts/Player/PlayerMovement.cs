@@ -24,6 +24,10 @@ public class PlayerMovement : MonoBehaviour
         {
             _moveSpeed = _runSpeed;
         }
+        else
+        {
+            _moveSpeed = 3;
+        }
 
         _moveVector.x = Input.GetAxis("Horizontal");
         _moveVector.y = Input.GetAxis("Vertical");

@@ -1,16 +1,9 @@
 using UnityEngine;
 
-public class ItemData : MonoBehaviour
+[CreateAssetMenu(fileName = "InventoryItemData", menuName = "Inventory/Inventory Item", order = 1)]
+public class ItemData : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string itemName;
+    public Sprite icon;
+    public int maxStack;
 }
